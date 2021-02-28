@@ -1,10 +1,13 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 
 export default function Home() {
   return (
     <div >
-      OK
+        <Link  href='/login'>
+          <a>Fazer Login</a>
+        </Link>
     </div>
   )
 }
