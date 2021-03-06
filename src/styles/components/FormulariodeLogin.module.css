@@ -1,0 +1,122 @@
+.container{
+  
+    flex: 1;
+    position: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 28vh;
+   
+
+  
+}
+
+.container div{
+    margin-left: auto;
+    margin-right: auto;
+    width: 20rem;
+    height: 22rem;
+   
+    background: rgba(255, 255, 255, 0.75);
+    mix-blend-mode: normal;
+    box-shadow: inset 0px 0px 12px rgba(0, 0, 0, 0.25);
+    border-radius: 45px;
+   
+}
+
+
+.container div h2{
+    padding: 1rem;
+    font-family: Port Lligat Slab;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 39px;
+    
+    text-align: center;
+    color: #000000;
+    flex-direction: column;
+}
+
+
+
+.container input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 244px;
+    height: 42px;
+    margin: 1rem 2.4rem;
+    padding: 1rem;
+  
+   
+   
+
+    
+    font-weight: 400;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: 0;
+}
+
+
+.container  button:first-of-type{
+  
+    width: 244px;
+    height: 50px;
+    left: 517px;
+    top: 398px;
+    margin: 0.2rem 2.4rem;
+    cursor: pointer;
+   
+    
+
+    font-family: Lato;
+    font-style: normal;
+    font-weight: normal;
+    border: none;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #FFFFFF;
+    
+    background: #6066C7;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    transition-property: background;
+ 
+}
+
+.container  button:first-of-type:hover{
+   
+    background: #363a86;
+}
+
+
+.container  button:last-of-type{
+    width: 244px;
+    height: 26px;
+    left: 517px;
+    top: 456px;
+    color:white;
+
+    margin: 0.05rem 2.4rem;
+    cursor: pointer;
+    border: none;
+    background: #29242B;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+    transition-property: background;
+ 
+}
+
+.container  button:last-of-type:hover{
+    border: 1px solid rgb(0, 167, 245);
+    color: black;
+    background: #faf9fa;
+}
